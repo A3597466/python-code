@@ -9,7 +9,7 @@ f = True
 g = None
 h = print("Printing")
 i = lambda x: x * 2
-j = open("a.txt", "r")
+j = open("array.py", "r")
 k = object()
 l = str(10)
 m = int(5.7)
@@ -23,8 +23,7 @@ u = frozenset(['cat', 'dog'])
 v = complex(2 + 3j)
 w = bytes('hello', encoding='utf-8')
 x = bytearray(b'world')
-y = "y"
-z = "z" 
+
 
 # 打印每个变量及其对应的类型
 #for var in locals().values():
@@ -53,5 +52,5 @@ print("t", t, type(t).__name__)
 print("u", u, type(u).__name__)
 print("v", v, type(v).__name__)
 print("w", w, type(w).__name__)
+print("x", x, type(x).__name__)
 
-# list=[chr(i) for i in range(97,123)]
