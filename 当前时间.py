@@ -1,10 +1,10 @@
+import datetime
 import time
 
 now = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 print(now)
 
-import datetime
- 
+
 while True:
     now = datetime.datetime.now()
     # print(now)
