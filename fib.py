@@ -16,6 +16,7 @@ res = fib(20)
 
 print(f"\n斐波那契数列的第 {n} 项为 {res}")
 
+# 另外一种递归方法：
 # 获取用户输入数据
 nterms = int(input("你需要几项？"))
 
